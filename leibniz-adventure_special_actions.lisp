@@ -18,6 +18,7 @@
           (pushnew ',command *allowed-commands*)))
           
 (game-action-mere-subject talk leibniz beautiful-garden
+    '(Leibniz awards you his attention. `DID YOU NOT HEAR ME?` he exclaims. `DO YOU DESIRETH TO LEARN OF THE MONADS? PERHAPS THE EXCELLENCE OF THE PERFECTION OF NATURE?`))
 
 ; (defparameter *chain-welded* nil)
 
