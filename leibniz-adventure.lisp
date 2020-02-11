@@ -1,4 +1,4 @@
-(defparameter *nodes* '((beautiful-garden (DESCRIPTION))
+(defparameter *nodes* '((beautiful-garden (You are in a beautiful garden. It is replete with wonderful native trees, bushes and shrubs. The sunlight is warm and golden. Standing besides you is an angry man with a large wig. He wishes to.. 'discuss the monads'.))
                         
                         (manor-lobby (DESCRIPTION))
                         (street (DESCRIPTION))
