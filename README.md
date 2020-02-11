@@ -1,4 +1,6 @@
-# leibniz-text-adventure
+# The Leibniz Text Adventure
+
+(working title)
 
 This game is giftware and freeware. I do not believe it needs a formal licence. 
 If you do use this code, however, you must provide the code free of charge to everyone.
