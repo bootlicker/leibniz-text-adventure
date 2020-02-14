@@ -18,8 +18,27 @@
           (pushnew ',command *allowed-commands*)))
           
 (game-action-mere-subject talk leibniz beautiful-garden
-    '(Leibniz awards you his attention. `DID YOU NOT HEAR ME?` he exclaims. `DO YOU DESIRETH TO LEARN OF THE MONADS? PERHAPS THE EXCELLENCE OF THE PERFECTION OF NATURE?`))
+			  '(Leibniz awards you his attention.
+			    DID YOU NOT HEAR ME? he exclaims.
+			    DO YOU DESIRETH TO LEARN OF THE MONADS? PERHAPS THE EXCELLENCE OF THE PERFECTION OF NATURE?))
 
+(game-action talk leibniz spectacles beautiful-garden
+  '(You have no idea what these spectacles are for.
+    Or who they belong to.
+    Are they Leibniz's spectacles?
+    You ask Leibniz about the spectacles.
+    OH THOSE? WHY DO YOU NOT PUT THEM ON AND BEHOLD ME IN ALL MY BEAUTY?))
+    
+(game-action behold leibniz spectacles beautiful-garden
+  '(Leibniz allows you to witness him in all his wigg-ed glory.
+    He scowls.
+    He simpers.
+    Truly he is an ugly smelly man.
+    You wish you hadn't realised that this command was possible to execute in every single room of this game.))
+
+(game-action put leibniz lecturn library
+    '(Leibniz sits atop the lecturn pouting about the monads.))
+        
 ; (defparameter *chain-welded* nil)
 
 (game-action weld chain bucket attic
@@ -42,5 +61,4 @@
                    (t '(the wizard awakens from his slumber and greets you warmly. 
                         he hands you the magic low-carb donut- you win! the end.))))
 
-(game-action behold leibniz spectacles beautiful-garden
-        '(Leibniz allows you to witness him in all his wigg-ed glory. He scowls, he simpers... Truly he is an ugly, smelly man. You wish you hadn't realised that this command was possible to execute in every single room of this game.))
+

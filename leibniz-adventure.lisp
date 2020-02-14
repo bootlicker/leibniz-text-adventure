@@ -1,10 +1,8 @@
 (defparameter *nodes* '(
-
-                        (beautiful-garden (You are in a beautiful garden. It is 
-replete with wonderful native trees, bushes and shrubs. The sunlight is warm and 
-golden. Standing besides you is an angry man with a large wig. He wishes to.. 
-'discuss the monads'.))
-                        
+                        (beautiful-garden (You are in a beautiful garden.
+					   It is replete with wonderful native trees bushes`, and shrubs.
+					   The sunlight is warm and golden. Standing besides you is an angry man with a large wig.
+					   He wishes to discuss the monads.))
                         (manor-lobby (DESCRIPTION))
                         (street (DESCRIPTION))
                         (library (DESCRIPTION))
@@ -16,12 +14,9 @@ golden. Standing besides you is an angry man with a large wig. He wishes to..
                         (shopkeepers-domain (DESCRIPTION))
                         (warehouse (DESCRIPTION))
                         (secret-control-room (DESCRIPTION))
-                        
                         (trap-door-room (DESCRIPTION))
                         (riddle-of-monads (DESCRIPTION))
-                        (science-of-monads (DESCRIPTION))
-                        
-                        ))
+                        (science-of-monads (DESCRIPTION))))
 
 (defun describe-location (location nodes)
    (cadr (assoc location nodes)))
